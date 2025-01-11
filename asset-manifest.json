@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/personalportfolio/static/css/main.00daf449.css",
+    "main.js": "/personalportfolio/static/js/main.336a6c1c.js",
+    "static/js/488.c159fd36.chunk.js": "/personalportfolio/static/js/488.c159fd36.chunk.js",
+    "static/media/man_about.gif": "/personalportfolio/static/media/man_about.e333024f1b73bf99954b.gif",
+    "static/media/linkedin.png": "/personalportfolio/static/media/linkedin.34b65f595032d226b415.png",
+    "static/media/man_workings.png": "/personalportfolio/static/media/man_workings.29617e1805c6e8a79b70.png",
+    "static/media/java.png": "/personalportfolio/static/media/java.07101c69312e7f028de4.png",
+    "static/media/man2.png": "/personalportfolio/static/media/man2.66cd6ab26571ec38c22b.png",
+    "static/media/icon3.png": "/personalportfolio/static/media/icon3.765ab7cef75a534c8a37.png",
+    "static/media/bgweb.jpg": "/personalportfolio/static/media/bgweb.789f7e83dbffbf62cdb7.jpg",
+    "static/media/twitter.jpg": "/personalportfolio/static/media/twitter.44611ab9386f2f56aba4.jpg",
+    "static/media/man_working.png": "/personalportfolio/static/media/man_working.b8196a31b8b31243ea58.png",
+    "static/media/css.png": "/personalportfolio/static/media/css.19c8605d6b2861f5fbe0.png",
+    "static/media/icon2.png": "/personalportfolio/static/media/icon2.09659f925b46b7fd1b8a.png",
+    "static/media/icon.png": "/personalportfolio/static/media/icon.9d228930ea5ad1ded0b8.png",
+    "static/media/mail.jpg": "/personalportfolio/static/media/mail.8692852d2180ce6e1518.jpg",
+    "static/media/dotnet.png": "/personalportfolio/static/media/dotnet.b0d9ab1586b1ebf9c604.png",
+    "static/media/html.png": "/personalportfolio/static/media/html.b39a12ac47cb0bc32b3f.png",
+    "static/media/c\u0000#.jpg": "/personalportfolio/static/media/c#.61480b97e7c6ca1e99d3.jpg",
+    "static/media/YerramsettiRaghuram.pdf": "/personalportfolio/static/media/YerramsettiRaghuram.1b92b4df593579354ce3.pdf",
+    "static/media/react.png": "/personalportfolio/static/media/react.20adfb35ae6a6e5817bf.png",
+    "static/media/js.png": "/personalportfolio/static/media/js.7f8751632b42a9932c15.png",
+    "static/media/working1.png": "/personalportfolio/static/media/working1.f5297d60b156eedf8443.png",
+    "static/media/right.png": "/personalportfolio/static/media/right.d8f4504b6d932943d8b6.png",
+    "static/media/instagram.jpg": "/personalportfolio/static/media/instagram.4e8d36e674f48fb3faea.jpg",
+    "static/media/linkedin.jpg": "/personalportfolio/static/media/linkedin.2b5ba91b01df46af0e48.jpg",
+    "static/media/left.png": "/personalportfolio/static/media/left.7c8412615038307ae883.png",
+    "index.html": "/personalportfolio/index.html",
+    "main.00daf449.css.map": "/personalportfolio/static/css/main.00daf449.css.map",
+    "main.336a6c1c.js.map": "/personalportfolio/static/js/main.336a6c1c.js.map",
+    "488.c159fd36.chunk.js.map": "/personalportfolio/static/js/488.c159fd36.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00daf449.css",
+    "static/js/main.336a6c1c.js"
+  ]
+}
