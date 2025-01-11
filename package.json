@@ -4,15 +4,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.3.0",
-    "@testing-library/user-event": "^13.5.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.1.0",
+    "@testing-library/user-event": "^14.5.2",
     "animate.css": "^4.1.1",
-    "jquery": "^3.6.1",
-    "react": "^18.2.0",
-    "react-animate-on-scroll": "^2.1.5",
+    "jquery": "^3.7.1",
+    "react": "^19.0.0",
+    "react-animate-on-scroll": "^2.1.9",
     "react-animation-on-scroll": "^5.1.0",
-    "react-dom": "^18.2.0",
+    "react-dom": "^19.0.0",
     "react-download-link": "^2.3.0",
     "react-gsap": "^3.2.1",
     "react-parallax": "^3.5.1",
@@ -20,8 +20,8 @@
     "react-scripts": "^5.0.1",
     "react-scrollmagic": "^2.3.0",
     "react-typewriter-effect": "^1.1.0",
-    "styled-components": "^5.3.5",
-    "web-vitals": "^2.1.4"
+    "styled-components": "^6.1.14",
+    "web-vitals": "^4.2.4"
   },
   "scripts": {
     "start": "react-scripts start",
