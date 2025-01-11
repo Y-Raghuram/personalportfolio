@@ -75,31 +75,31 @@ const inlineStyle1 = {
  
 
   const element_one = {
-    height: 800,
-    width: 1520,
+    height: '100vh',
+    width: '100vw',
     
       
   }
 
   const element_o = {
     marginTop: 100,
-    height: 800,
-    width: 1520,
+    height: '100vh',
+    width: '100vw',
     
       
   }
 
   const element_skill = {
-    height: 800,
-    width: 1520,
+    height: '100vh',
+    width: '100vw',
     marginLeft:100,
     marginRight: -200
       
   }
 
   const element_onetwo = {
-    height: 800,
-    width: 1520,
+    height: '100vh',
+    width: '100vw',
     marginLeft:100,
     marginRight:1200
       
