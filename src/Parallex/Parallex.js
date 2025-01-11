@@ -4,7 +4,7 @@ import { Parallax } from 'react-parallax';
 import background from '../working1.png'
 import {AnimationOnScroll} from 'react-animation-on-scroll'
 import "animate.css/animate.min.css";
-import image1 from './first.png'
+import image1 from './bgweb.jpg'
 import image2 from './bg1.png'
 import image3 from './bg2.png'
 import image4 from './bg3.png'
@@ -30,7 +30,7 @@ import icon3 from './logo/icon3.png'
 import man_about from './logo/man_about.gif'
 import man_workings from './logo/man_workings.png'
 import man2 from './logo/man2.png'
-import contact_links from './logo/open_link.png'
+import contact_links from './logo/linkedin.png'
 import man_contact from './logo/man_workings.png'
 import TypeWriterEffect from 'react-typewriter-effect';
 import download from './logo/download.png'
@@ -77,13 +77,31 @@ const inlineStyle1 = {
   const element_one = {
     height: 800,
     width: 1520,
+    
+      
+  }
+
+  const element_o = {
+    marginTop: 100,
+    height: 800,
+    width: 1520,
+    
+      
+  }
+
+  const element_skill = {
+    height: 800,
+    width: 1520,
+    marginLeft:100,
+    marginRight: -200
       
   }
 
   const element_onetwo = {
     height: 800,
     width: 1520,
-   marginLeft:100
+    marginLeft:100,
+    marginRight:1200
       
   }
 
@@ -111,6 +129,7 @@ const inlineStyle1 = {
     
     marginTop: '50px',
     marginLeft: '720px'
+   
     
   }
 
@@ -176,6 +195,7 @@ const inlineStyle1 = {
     
     marginTop: '-200px',
     marginLeft: '900px',
+    marginRight: '100px',
     fontSize :'20px',
     textAlign: 'justify'
     
@@ -217,7 +237,7 @@ function Parallex() {
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-<div class="container">
+<div class="container"   >
 
 
 
@@ -260,7 +280,7 @@ function Parallex() {
 
 </div> 
  
-<AnimationOnScroll  animateIn="bounceInRight"  animateOut="bounceOutRight"  duration={2.0}>
+<AnimationOnScroll initiallyVisible="true"  animateIn="bounceInRight"  animateOut="bounceOutRight"  duration={2.0}>
 <h1 style={{ marginLeft: '50px',marginTop: '190px'}} >Hi, <br/> I am
 Raghuram</h1>
 
@@ -278,7 +298,7 @@ Raghuram</h1>
             
           />
     </div>
-<AnimationOnScroll style={element_three} animateIn="fadeIn"  animateOut="fadeOut"  duration={1.0}>
+<AnimationOnScroll style={element_three} initiallyVisible="true" animateIn="fadeIn"  animateOut="fadeOut"  duration={1.0}>
 
 <p style={{ fontSize :'18px',  marginLeft: '5px', color: 'white'}}>
         I am a Full Stack Developer based in Kakinada, India. worked on more <br/>  10 web  projects  proficient in frontend, backend and database 
@@ -290,20 +310,20 @@ Raghuram</h1>
 </Parallax>
                 
 <section id="about" class="about-section" >          
-<Parallax bgImage={ left } style={element_one}  strength={-100}>
+<Parallax bgImage={ left } style={element_o}  strength={-100}>
        
         <img  src={man_about} style={{marginTop: '0px', marginLeft: '-900px'}} />
         <div style={{marginTop: '-500px', marginLeft: '500px', fontSize :'40px'}}>A B O U T</div>
-        <p style={{marginTop: '00px', marginLeft: '900px', fontSize :'20px', textAlign: 'justify'}}>
-        I am a Full Stack Developer located in Kakinada, India. I enjoy creating <br/> things that live on the internet. 
-         My interest in web development <br/> started back in 2016 when I decided to try recreating one of my favorite <br/> 
+        <p style={{marginTop: '00px', marginLeft: '900px',  marginRight: '150px', fontSize :'20px', textAlign: 'justify'}}>
+        I am a Full Stack Developer located in Kakinada, India. I enjoy  <br/> creating  things that live on the internet. 
+         My interest in  web development started back in 2016 when I decided to try recreating  one of my favorite 
          website using  HTML & CSS<br/>
          <br/> 
-      Fast Forward to today, I have created more than 10 web projects as <br/>  a Student and as a Software Engineer,
-I graduated in 2021 and <br/> got a job as full stack web developer at starmark software, after my <br/> training 
-I was selected as lead for a project among 20 trainees, later <br/>  moved a team which works  on companies main 
-product, after one year <br/>  at starmark, i decided it time to next big step in life,
-And move <br/>  to a company where i can upskill and challenge myself
+      Fast Forward to today, I have created more than 10 web projects as   a Student and as a Software Engineer,
+I graduated in 2021 and  got a job as full stack web developer at starmark software, after my training 
+I was selected as lead for a project among 20 trainees, later   moved a team which works  on companies main 
+product, after one year  at starmark, i decided it time to next big step in life,
+And move   to a company where i can upskill and challenge myself
 
         </p>
         
@@ -319,7 +339,7 @@ And move <br/>  to a company where i can upskill and challenge myself
         <div class="row">
             <div class="col-lg-12">
             
-            <Parallax bgImage={ right } style={element_onetwo} strength={-100}   >
+            <Parallax bgImage={ right } style={element_skill} strength={-100}   >
         
         <AnimationOnScroll style={element_four} animateIn="fadeIn"  animateOut="fadeOut"  duration={2.0}>
         
@@ -565,8 +585,8 @@ And move <br/>  to a company where i can upskill and challenge myself
 
        
 
-        <div style={text4}> I worked on 10 web based project, 5 are for my college purpose,  <br/>
-                           and 2 projects are part of training, And the other 3 are live projects. <br/>
+        <div style={text4}> I worked on 10 web based project, 5 are for my college purpose,  
+                           and 2 projects are part of training, And the other 3 are live projects. 
                            I did when i am working at starmark software <br/>
                            
                            <p style={{ color : '#BDE1C4' , fontSize :'25px', fontWeight: 'bold'}}>Please hover on the project to get details</p>
@@ -621,7 +641,7 @@ And move <br/>  to a company where i can upskill and challenge myself
           </div>
           <div class="back">
             <div class="back-content middle">
-              <span><a href="mailto: yerramsettiraghuram@gmail.com" target="_blank"><img  style={{ height: 50, width: 50}} src={contact_links} /></a></span>
+              <span><a href="mailto: yerramsettiraghuram@gmail.com" target="_blank"><img  style={{ height: 200, width: 310}} src={contact_links} /></a></span>
               
             </div>
           </div>
@@ -635,7 +655,7 @@ And move <br/>  to a company where i can upskill and challenge myself
       </div>
       <div class="back">
         <div class="back-content middle">
-          <span><a href="https://www.linkedin.com/in/yerramsettiraghuram/" target="_blank"><img  style={{ height: 50, width: 50}} src={contact_links} /></a></span>
+          <span><a href="https://www.linkedin.com/in/yerramsettiraghuram/" target="_blank"><img  style={{ height: 200, width: 310}} src={contact_links} /></a></span>
          
         </div>
       </div>
@@ -648,7 +668,7 @@ And move <br/>  to a company where i can upskill and challenge myself
       </div>
       <div class="back">
         <div class="back-content middle">
-          <span><a href="#"><img  style={{ height: 50, width: 50}} src={contact_links} /></a></span>
+          <span><a href="#"><img  style={{ height: 200, width: 310}} src={contact_links} /></a></span>
          
         </div>
       </div>
@@ -661,7 +681,7 @@ And move <br/>  to a company where i can upskill and challenge myself
       </div>
       <div class="back">
         <div class="back-content middle">
-        <span><a href="#"><img  style={{ height: 50, width: 50}} src={contact_links} /></a></span>
+        <span><a href="#"><img  style={{ height: 200, width: 310}} src={contact_links} /></a></span>
          
         </div>
 
@@ -685,14 +705,14 @@ And move <br/>  to a company where i can upskill and challenge myself
        </div>
      </div>
 
-      <Parallax style={{ height: 250, backgroundColor:'black' }}>
+      <Parallax style={{ height: 200, backgroundColor:'black' }}>
        
         <div  >
           
 
-          <p style={{color:'white', marginTop: 100, marginLeft: 100, fontSize :'20px',  }}> Y E R R A M S E T T I &nbsp;   R A G H U R A M </p>
+          <p style={{color:'white', marginTop: 70, marginLeft: 100, fontSize :'20px',  }}> Y E R R A M S E T T I &nbsp;   R A G H U R A M </p>
 
-          <p style={{color:'white', marginTop: -40, marginLeft: 900, fontSize :'20px',  }}> Contact </p>
+          <p style={{color:'white', marginTop: -50, marginLeft: 900, fontSize :'20px',  }}> Contact </p>
 
           <p style={{color:'white', marginTop: -50, marginLeft: 1200, fontSize :'20px',  }}>  Address</p>
 
@@ -701,7 +721,7 @@ And move <br/>  to a company where i can upskill and challenge myself
           <p style={{color:'grey', marginTop: -55, marginLeft: 1200, fontSize :'15px',  }}> Kakianda <br/> Andhra Predesh, India</p>
 
 
-          <p style={{color:'grey', marginTop: 40, marginLeft: 680, fontSize :'15px',  }}>Made in 2022</p>
+          <p style={{color:'grey', marginTop: 30, marginLeft: 680, fontSize :'15px',  }}>Made in 2022</p>
         
 
 
