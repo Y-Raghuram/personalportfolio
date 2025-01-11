@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/personalportfolio/static/css/main.00daf449.css",
-    "main.js": "/personalportfolio/static/js/main.336a6c1c.js",
-    "static/js/488.c159fd36.chunk.js": "/personalportfolio/static/js/488.c159fd36.chunk.js",
+    "main.css": "/personalportfolio/static/css/main.d82d8e7b.css",
+    "main.js": "/personalportfolio/static/js/main.f454c875.js",
+    "static/js/453.90c38bfe.chunk.js": "/personalportfolio/static/js/453.90c38bfe.chunk.js",
     "static/media/man_about.gif": "/personalportfolio/static/media/man_about.e333024f1b73bf99954b.gif",
     "static/media/linkedin.png": "/personalportfolio/static/media/linkedin.34b65f595032d226b415.png",
     "static/media/man_workings.png": "/personalportfolio/static/media/man_workings.29617e1805c6e8a79b70.png",
@@ -28,12 +28,12 @@
     "static/media/linkedin.jpg": "/personalportfolio/static/media/linkedin.2b5ba91b01df46af0e48.jpg",
     "static/media/left.png": "/personalportfolio/static/media/left.7c8412615038307ae883.png",
     "index.html": "/personalportfolio/index.html",
-    "main.00daf449.css.map": "/personalportfolio/static/css/main.00daf449.css.map",
-    "main.336a6c1c.js.map": "/personalportfolio/static/js/main.336a6c1c.js.map",
-    "488.c159fd36.chunk.js.map": "/personalportfolio/static/js/488.c159fd36.chunk.js.map"
+    "main.d82d8e7b.css.map": "/personalportfolio/static/css/main.d82d8e7b.css.map",
+    "main.f454c875.js.map": "/personalportfolio/static/js/main.f454c875.js.map",
+    "453.90c38bfe.chunk.js.map": "/personalportfolio/static/js/453.90c38bfe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.00daf449.css",
-    "static/js/main.336a6c1c.js"
+    "static/css/main.d82d8e7b.css",
+    "static/js/main.f454c875.js"
   ]
 }
