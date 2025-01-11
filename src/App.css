@@ -66,8 +66,8 @@ body {
 .Homepage__container,
 .Portfolio__container,
 .Contact__container {
-  height: 100vh;
-  width: 100vh;
+   height: 100vh; /* keep this if it's meant to be full viewport height */
+  width: 100%;   /* make it responsive */
 }
 
 .Homepage__container {
@@ -96,11 +96,10 @@ body {
 }
 
 .Portfolio__row {
-  height: 33.333%;
   display: flex;
-  width: 60%;
+  justify-content: space-between; /* distribute evenly */
+  flex-wrap: wrap; /* allow wrapping */
   padding: 2%;
-  margin: 0 auto;
   box-sizing: border-box;
 }
 
@@ -115,10 +114,9 @@ body {
 }
 
 .box {
-  height: 100;
-  background: rgb(233, 233, 233);
-  border-radius: 3px;
-  box-shadow: 2px 1px 2px lightgray;
+  display: flex;
+  flex-wrap: wrap; /* allow items to wrap on smaller screens */
+  justify-content: space-between;
 }
 
 .box2 {
@@ -138,34 +136,46 @@ body {
 /* New additions for responsive design */
 
 /* Mobile-specific styles */
-.App.mobile {
-  background-color: lightgray;
-}
+@media (max-width: 600px) {
+  .Homepage__container {
+    background: lightblue;
+    padding: 10px;
+    font-size: 1.5rem;
+  }
 
-.Homepage__container.mobile-container {
-  background: lightblue;
-  padding: 10px;
-  font-size: 1.5rem;
+  .Portfolio__row {
+    width: 100%; /* full width on small screens */
+    flex-direction: column; /* stack items */
+  }
 }
 
 /* Tablet-specific styles */
-.App.tablet {
-  background-color: lightgreen;
-}
+@media (max-width: 1024px) {
+  .Homepage__container {
+    background: lightyellow;
+    padding: 20px;
+    font-size: 2rem;
+  }
 
-.Homepage__container.tablet-container {
-  background: lightyellow;
-  padding: 20px;
-  font-size: 2rem;
+  .Portfolio__row {
+    width: 45%; /* adjust width for tablet */
+  }
 }
 
 /* Desktop-specific styles */
-.App.desktop {
-  background-color: lightcoral;
-  height: 100;
-  width: 100;
-}
+@media (min-width: 1025px) {
+  .Homepage__container {
+    background: lightpink;
+    padding: 30px;
+    font-size: 2.5rem;
+  }
 
+  .Portfolio__row {
+    display: flex;
+    flex-wrap: wrap; /* allow items to wrap on smaller screens */
+    justify-content: space-between;
+  }
+}
 .Homepage__container.desktop-container {
   background: lightpink;
   padding: 30px;
