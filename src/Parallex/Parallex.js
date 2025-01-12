@@ -67,8 +67,8 @@ const inlineStyle = {
 
 
 const inlineStyle1 = {
-    left: '80%',
-    top: '1000px',
+    
+    
     
   }
 
@@ -76,7 +76,21 @@ const inlineStyle1 = {
 
   const element_one = {
     height: '100vh',
-    width: '100vw',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    width: '100%',
+    
+      
+  }
+
+  const element_works = {
+    
+    height: '100vh',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    width: '100%',
     
       
   }
@@ -85,6 +99,8 @@ const inlineStyle1 = {
     marginTop: 100,
     height: '100vh',
     width: '100vw',
+    justifyContent: 'center',
+    alignItems: 'center'
     
       
   }
@@ -113,7 +129,9 @@ const inlineStyle1 = {
     marginLeft: '100px',
     fontSize :'70px',
     size:'100px',  
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    justifyContent: 'center',
+    alignItems: 'center',
   }
 
   const element_three = {
@@ -281,10 +299,10 @@ function Parallex() {
 </div> 
  
 <AnimationOnScroll initiallyVisible="true"  animateIn="bounceInRight"  animateOut="bounceOutRight"  duration={2.0}>
-<h1 style={{ marginLeft: '50px',marginTop: '190px'}} >Hi, <br/> I am
+<h1 style={{ Left: '50px',Top: '190px'}} >Hi, <br/> I am
 Raghuram</h1>
 
-<div className='r'  style={{marginTop: '-169px', marginLeft: '216px'}}>Raghuram</div>
+<div className='r'  style={{marginTop: '-169px', marginLeft: '216px', textalign: 'center'}}>Raghuram</div>
 </AnimationOnScroll>
 
 <div style={{marginTop: '-109px',  marginLeft: '800px'}}>
@@ -424,13 +442,13 @@ And move   to a company where i can upskill and challenge myself
     <div class="container"  >
         <div class="row">
             <div class="col-lg-12">
-            <Parallax bgImage={ left } style={element_one} strength={-100} >
+            <Parallax bgImage={ left } style={element_works} strength={-100} >
         
        
         
 
       <div style={{ marginLeft: 150 }}>
-        <div class="card" style={{ height: 100, width: 100, marginTop: 50, marginLeft: 50 }} >
+        <div class="card" style={{ height: 100, width: 100, marginTop: -370, marginLeft: 50 }} >
             <div class="slide slide1">
                 <div class="content">
                     <div class="icon">
@@ -619,7 +637,7 @@ And move   to a company where i can upskill and challenge myself
         <Parallax bgImage={ right } style={element_onetwo} strength={-100} > 
         <div>
 
-        <div style={{marginTop: '100px', marginLeft: '-750px', fontSize :'40px'}}> L E T S  &nbsp; G E T &nbsp; I N &nbsp; T O U C H  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  <br/><br/> &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp; <p style={{ marginTop: '-100px',marginLeft: '1500px',fontSize :'30px', color:'white'}}>  I'm currently looking for new  <br/> challenge and oppotunity to grow <br/> in career, i  always belivee their is <br/>  not ending for learning  </p></div>
+        <div style={{marginTop: 0, marginLeft: '-750px', fontSize :'40px'}}> L E T S  &nbsp; G E T &nbsp; I N &nbsp; T O U C H  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  <br/><br/> &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp; <p style={{ marginTop: '-100px',marginLeft: '1500px',fontSize :'30px', color:'white'}}>  I'm currently looking for new  <br/> challenge and oppotunity to grow <br/> in career, i  always belivee their is <br/>  not ending for learning  </p></div>
         <div style={{marginTop: -300, marginLeft: '100px'}}>
       
 
